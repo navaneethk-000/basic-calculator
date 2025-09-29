@@ -26,3 +26,10 @@ if num2 >= 0:
     print("Square root of second number:", math.sqrt(num2))
 else:
     print("Square root of second number: Not defined for negative numbers")
+
+#  factorial
+if num1 >= 0:
+    factorial_num1 = math.factorial(num1)
+    print("Factorial of", num1, "is", factorial_num1)
+else:
+    print("Factorial is not defined for negative numbers.")
