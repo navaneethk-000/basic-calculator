@@ -2,6 +2,8 @@ num1 = int(input("Enter first number :"))
 num2 = int(input("Enter second number :"))
 
 # Addition
+def addition(num1,num2):
+    return num1+num2
 
 
 
@@ -11,8 +13,15 @@ def Subtraction(num1,num2)
 # Division
 
 # Multiplication
+def multiply(num1,num2):
+    return num1 * num2
+
+print(multiply(num1,mum2))
 
 # exponential
+def exponential(num1,num2):
+    return num1 ** num2
+
 
 # Square
 
