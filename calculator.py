@@ -10,6 +10,9 @@ num2 = int(input("Enter second number :"))
 # Multiplication
 
 # exponential
+def exponential(num1,num2):
+    return num1 ** num2
+
 
 # Square
 
