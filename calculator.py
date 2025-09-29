@@ -13,6 +13,10 @@ def Subtraction(num1,num2)
 # Division
 
 # Multiplication
+def multiply(num1,num2):
+    return num1 * num2
+
+print(multiply(num1,mum2))
 
 # exponential
 
