@@ -19,6 +19,9 @@ def multiply(num1,num2):
 print(multiply(num1,mum2))
 
 # exponential
+def exponential(num1,num2):
+    return num1 ** num2
+
 
 # Square
 
