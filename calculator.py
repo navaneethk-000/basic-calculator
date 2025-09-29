@@ -6,6 +6,9 @@ num2 = int(input("Enter second number :"))
 # Subtraction
 
 # Division
+def division(a,b):
+    result=a/b
+    return result
 
 # Multiplication
 
@@ -14,3 +17,5 @@ num2 = int(input("Enter second number :"))
 # Square
 
 # Squreroot
+
+print(division(num1,num2))
