@@ -6,7 +6,8 @@ num2 = int(input("Enter second number :"))
 
 
 # Subtraction
-
+def Subtraction(num1,num2)
+     return num1+num2
 # Division
 
 # Multiplication
