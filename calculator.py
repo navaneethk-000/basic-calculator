@@ -6,10 +6,10 @@ num2 = int(input("Enter second number :"))
 # Subtraction
 
 # Division
-def division(a,b):
-    result=a/b
-    return result
-
+def division(a, b):
+    if b == 0:
+        return "Error! Division by zero."
+    return a / b
 # Multiplication
 
 # exponential
@@ -18,4 +18,4 @@ def division(a,b):
 
 # Squreroot
 
-print(division(num1,num2))
+print("Division:",division(num1,num2))
